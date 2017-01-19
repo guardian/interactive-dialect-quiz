@@ -170,12 +170,15 @@ h2 {
 .interactive-quiz {
     padding: 6px 5px;
     line-height: 0;
-    border-top: 1px solid #eaeaea;
     position: relative;
     z-index: 3;
     background-color: #f6f6f6;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+
+    &:nth-of-type(odd) {
+        background-color: #efefef;
+    }
     // &:last-of-type.answered {
     //     &::after {
     //         // background-color: #ffffff;
