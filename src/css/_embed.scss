@@ -1,0 +1,13 @@
+html,
+body {
+    @include fs-bodyCopy(2);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+// body {
+// 	border-top: 1px solid #4bc6df;
+// } 
